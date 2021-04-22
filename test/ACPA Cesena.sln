@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "ACPA Cesena", "ACPA Cesena.phpproj", "{E24ED286-243A-4A3B-81AB-317FB01E9B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E24ED286-243A-4A3B-81AB-317FB01E9B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24ED286-243A-4A3B-81AB-317FB01E9B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C48A27AA-70C5-4DB4-80D3-85851CE0BC3F}
+	EndGlobalSection
+EndGlobal

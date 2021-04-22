@@ -1,0 +1,19 @@
+#search input.input_text{
+width:94px;
+margin-left:10px;
+padding:3px 4px 0 4px;
+border:none;
+}
+#search select{
+margin-left:5px;
+}
+#search input.input_text{
+margin-left:5px;
+}
+#search p{
+margin-right:10px;
+}
+#search p.input_submit input{
+padding:0 10px;
+font-size:17px;
+}

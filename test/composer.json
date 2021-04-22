@@ -1,0 +1,20 @@
+{
+  "autoload": {
+    "psr-4": { "Fbdn\\": "vendor/Fbdn/src/" }
+  },
+  "name": "fbdn/acpa",
+  "description": "ACPA Canile Comunale di Cesena",
+  "type": "project",
+  "require": {
+    "facebook/graph-sdk": "^5.7",
+    "ckeditor/ckeditor": "^4.16"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FRANCESCO BIAGINI",
+      "email": "info@fbdn.it"
+    }
+  ],
+  "minimum-stability": "stable"
+}

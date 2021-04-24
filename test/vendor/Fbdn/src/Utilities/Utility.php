@@ -138,7 +138,7 @@ class Utility{
         if(mysqli_num_rows($res) >0){
             while($item = mysqli_fetch_assoc($res)){
                
-                $html .='<div class="image-item"><img src="'.$item['path'].'" class="img-fluid img-thumbnail"/></div>';
+                $html .='<div class="image-item"><img src="'.$item['path'].'"/></div>';
                 
 
             }

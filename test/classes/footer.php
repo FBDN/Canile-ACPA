@@ -29,7 +29,7 @@
 		$('.fotoContainer').masonry({
   // options
   itemSelector: '.image-item',
-  columnWidth: 200
+  columnWidth: 180
 });
 	});
 </script>

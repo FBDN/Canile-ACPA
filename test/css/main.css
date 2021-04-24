@@ -275,7 +275,10 @@ span.separator {
     color: black;
 }
 .image-item {
-    width: 200px;
+    width: 180px;
+}
+.image-item img{
+    width:180px;
 }
 
 @media (min-width: 992px) {

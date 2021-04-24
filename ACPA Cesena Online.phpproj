@@ -221,7 +221,6 @@
     <Compile Include="test\index.php" />
     <Compile Include="test\photos.php" />
     <Compile Include="test\privacy.php" />
-    <Compile Include="test\showAlbum.php" />
     <Compile Include="test\twitterfeed.php" />
     <Compile Include="test\vendor\autoload.php" />
     <Compile Include="test\vendor\composer\autoload_classmap.php" />

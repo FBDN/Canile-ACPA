@@ -17,5 +17,14 @@
 	
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript">
+	$(function () {
+		$('.fotoContainer').masonry({
+  // options
+  itemSelector: '.image-item',
+  columnWidth: 200
+});
+	});
+</script>
 </body>
 </html>

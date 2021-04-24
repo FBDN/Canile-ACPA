@@ -133,19 +133,13 @@ class Utility{
         //print_r($this->link->error);
         //$numRows = $this->countItems($tableName);
 
-        $rowCount = 0;
+        
         //$itemsArray = array();
         if(mysqli_num_rows($res) >0){
             while($item = mysqli_fetch_assoc($res)){
-                if($rowCount % $numCol == 0) {
-                    $html .='<div class="row '.$classname.'">';
-                }
-                $rowCount++;
-                $html .='<div class="col-md-'.($totalCol/$numCol).'">'
-                .'<div class="row"><div class="col"><img src="'.$item['path'].'" class="img-fluid img-thumbnail"/></div></div></div>';
-                if($rowCount % $numCol == 0) {
-                    $html .='</div>';
-                }
+               
+                $html .='<div class="image-item"><img src="'.$item['path'].'" class="img-fluid img-thumbnail"/></div>';
+                
 
             }
             return $html;

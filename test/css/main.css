@@ -274,6 +274,9 @@ span.separator {
     font-family: Helvetica sans-serif;
     color: black;
 }
+.image-item {
+    width: 200px;
+}
 
 @media (min-width: 992px) {
     .center_cropped {
@@ -309,4 +312,5 @@ span.separator {
         padding-bottom: auto;
         margin-bottom: auto;
     }
+    
 }
